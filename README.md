@@ -13,12 +13,32 @@ A Flutter application demonstrating Firebase integration with authentication, Fi
 
 ## 📱 Screenshots
 
-The app includes:
-- Home page with event details
-- Authentication screens (Sign-in, Profile)
-- RSVP functionality with real-time attendee count
-- Guest book for event discussions
-- Responsive design across platforms
+> **Note**: To add screenshots to your README, save your app screenshots in the `screenshots/` directory with the following names:
+> - `signin.png` - Sign in screen
+> - `register.png` - Registration screen  
+> - `home.png` - Main meetup page
+> - `profile.png` - User profile screen
+
+### Authentication Flow
+![Sign In Screen](screenshots/signin.png)
+*Sign in screen with email/password authentication*
+
+![Register Screen](screenshots/register.png)
+*User registration screen with email verification*
+
+### Main Application
+![Home Screen](screenshots/home.png)
+*Main meetup page showing event details, RSVP options, and guest book*
+
+![Profile Screen](screenshots/profile.png)
+*User profile management with email verification status*
+
+### Key Features
+- **Event Details**: Clean interface showing meetup information with colorful illustration
+- **RSVP System**: Real-time attendee count and yes/no selection buttons
+- **Guest Book**: Interactive discussion section for attendees with send functionality
+- **User Management**: Profile settings, email verification, and account management
+- **Authentication**: Secure sign-in and registration flow with password recovery
 
 ## 🛠️ Tech Stack
 
