@@ -20,22 +20,36 @@ A Flutter application demonstrating Firebase integration with authentication, Fi
 > - `profile.jpg` - User profile screen
 
 ### Authentication Flow
-<img src="screenshots/signin.jpg" alt="Sign In Screen" width="300">
-
-*Sign in screen with email/password authentication*
-
-<img src="screenshots/register.jpg" alt="Register Screen" width="300">
-
-*User registration screen with email verification*
+<table>
+<tr>
+<td align="center">
+<img src="screenshots/signin.jpg" alt="Sign In Screen" width="250">
+<br>
+<em>Sign in screen with email/password authentication</em>
+</td>
+<td align="center">
+<img src="screenshots/register.jpg" alt="Register Screen" width="250">
+<br>
+<em>User registration screen with email verification</em>
+</td>
+</tr>
+</table>
 
 ### Main Application
-<img src="screenshots/home.jpg" alt="Home Screen" width="300">
-
-*Main meetup page showing event details, RSVP options, and guest book*
-
-<img src="screenshots/profile.jpg" alt="Profile Screen" width="300">
-
-*User profile management with email verification status*
+<table>
+<tr>
+<td align="center">
+<img src="screenshots/home.jpg" alt="Home Screen" width="250">
+<br>
+<em>Main meetup page showing event details, RSVP options, and guest book</em>
+</td>
+<td align="center">
+<img src="screenshots/profile.jpg" alt="Profile Screen" width="250">
+<br>
+<em>User profile management with email verification status</em>
+</td>
+</tr>
+</table>
 
 ### Key Features
 - **Event Details**: Clean interface showing meetup information with colorful illustration
