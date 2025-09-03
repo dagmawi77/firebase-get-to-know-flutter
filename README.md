@@ -14,23 +14,23 @@ A Flutter application demonstrating Firebase integration with authentication, Fi
 ## 📱 Screenshots
 
 > **Note**: To add screenshots to your README, save your app screenshots in the `screenshots/` directory with the following names:
-> - `signin.png` - Sign in screen
-> - `register.png` - Registration screen  
-> - `home.png` - Main meetup page
-> - `profile.png` - User profile screen
+> - `signin.jpg` - Sign in screen
+> - `register.jpg` - Registration screen  
+> - `home.jpg` - Main meetup page
+> - `profile.jpg` - User profile screen
 
 ### Authentication Flow
-![Sign In Screen](screenshots/signin.png)
+![Sign In Screen](screenshots/signin.jpg)
 *Sign in screen with email/password authentication*
 
-![Register Screen](screenshots/register.png)
+![Register Screen](screenshots/register.jpg)
 *User registration screen with email verification*
 
 ### Main Application
-![Home Screen](screenshots/home.png)
+![Home Screen](screenshots/home.jpg)
 *Main meetup page showing event details, RSVP options, and guest book*
 
-![Profile Screen](screenshots/profile.png)
+![Profile Screen](screenshots/profile.jpg)
 *User profile management with email verification status*
 
 ### Key Features
@@ -267,7 +267,7 @@ lib/
     └── widgets.dart         # Reusable UI widgets
 
 assets/
-└── codelab.png             # App logo/image
+└── codelab.jpg             # App logo/image
 
 android/                    # Android-specific configuration
 ios/                       # iOS-specific configuration
