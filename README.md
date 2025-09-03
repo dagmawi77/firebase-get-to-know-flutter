@@ -230,7 +230,19 @@ service cloud.firestore {
 
 ### 5. Update Firebase Configuration
 
-Replace the demo configuration in `lib/firebase_options.dart` with your actual Firebase project configuration. The `flutterfire configure` command should have already done this, but verify the configuration matches your Firebase project.
+⚠️ **SECURITY WARNING**: Never commit real API keys to version control!
+
+1. **Replace placeholder values** in `lib/firebase_options.dart` with your actual Firebase project configuration
+2. **Use environment variables** for production deployments
+3. **Keep sensitive data secure** by using `.env` files (already added to `.gitignore`)
+
+The `flutterfire configure` command should have already done this, but verify the configuration matches your Firebase project.
+
+**Important Security Steps:**
+- Replace `YOUR_ANDROID_API_KEY_HERE` with your actual Android API key
+- Replace `YOUR_PROJECT_ID_HERE` with your Firebase project ID
+- Replace other placeholder values with your actual Firebase configuration
+- Never commit real API keys to public repositories
 
 ## 🚀 Running the Application
 
@@ -310,6 +322,40 @@ web/                       # Web-specific configuration
 - Uses Provider pattern for state management
 - Centralized application state in `ApplicationState`
 - Reactive UI updates based on Firebase data changes
+
+## 🔒 Security Best Practices
+
+### API Key Security
+- **Never commit API keys** to version control
+- **Use environment variables** for sensitive configuration
+- **Rotate API keys** if they are accidentally exposed
+- **Use Firebase Security Rules** to protect your data
+- **Enable App Check** for additional security
+
+### Environment Variables
+Create a `.env` file (already in `.gitignore`) with your actual Firebase configuration:
+
+```bash
+# Example .env file structure
+ANDROID_API_KEY=your_actual_api_key_here
+ANDROID_APP_ID=your_actual_app_id_here
+PROJECT_ID=your_actual_project_id_here
+```
+
+### Firebase Security Rules
+Always implement proper Firestore security rules:
+
+```javascript
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Restrict access based on authentication
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+```
 
 ## 🐛 Troubleshooting
 

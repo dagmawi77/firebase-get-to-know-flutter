@@ -53,11 +53,11 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDVpu66-AYUHvZK3PVFA7AidEbXl6C337M',
-    appId: '1:675431009199:android:573e7b5f2f2d819caf7d5a',
-    messagingSenderId: '675431009199',
-    projectId: 'fir-flutter-codelab-fea0f',
-    storageBucket: 'fir-flutter-codelab-fea0f.firebasestorage.app',
+    apiKey: 'YOUR_ANDROID_API_KEY_HERE',
+    appId: 'YOUR_ANDROID_APP_ID_HERE',
+    messagingSenderId: 'YOUR_MESSAGING_SENDER_ID_HERE',
+    projectId: 'YOUR_PROJECT_ID_HERE',
+    storageBucket: 'YOUR_STORAGE_BUCKET_HERE',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(

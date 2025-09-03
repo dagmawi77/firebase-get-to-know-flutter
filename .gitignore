@@ -7,6 +7,13 @@
 .buildlog/
 .history
 
+# Environment variables and sensitive files
+.env
+.env.local
+.env.production
+.env.staging
+firebase-debug.log
+
 
 
 # Flutter repo-specific
