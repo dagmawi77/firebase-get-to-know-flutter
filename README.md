@@ -20,17 +20,21 @@ A Flutter application demonstrating Firebase integration with authentication, Fi
 > - `profile.jpg` - User profile screen
 
 ### Authentication Flow
-![Sign In Screen](screenshots/signin.jpg)
+<img src="screenshots/signin.jpg" alt="Sign In Screen" width="300">
+
 *Sign in screen with email/password authentication*
 
-![Register Screen](screenshots/register.jpg)
+<img src="screenshots/register.jpg" alt="Register Screen" width="300">
+
 *User registration screen with email verification*
 
 ### Main Application
-![Home Screen](screenshots/home.jpg)
+<img src="screenshots/home.jpg" alt="Home Screen" width="300">
+
 *Main meetup page showing event details, RSVP options, and guest book*
 
-![Profile Screen](screenshots/profile.jpg)
+<img src="screenshots/profile.jpg" alt="Profile Screen" width="300">
+
 *User profile management with email verification status*
 
 ### Key Features
