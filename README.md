@@ -423,3 +423,4 @@ This project is licensed under the BSD License - see the [LICENSE](LICENSE) file
 ---
 
 **Note**: This is a demo application for learning purposes. For production use, ensure proper security rules, error handling, and testing are implemented.
+**Note**: This is a demo application for learning purposes. For production use, ensure proper security rules, error handling, and testing are implemented.
